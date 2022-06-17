@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "EV";
+  src: url("https://db.onlinewebfonts.com/t/67415ab41a7350f81536b69763e6d031.woff");
+}
+
+.App {
+  font-family: EV;
+}
+
+.shadow-top {
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.border-sec {
+  border: 2px solid #202037;
+}
+
+.fixed1 {
+  position: fixed;
+  height: 70px;
+  background-color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.blue-navy {
+  background-color: #202037;
+}
