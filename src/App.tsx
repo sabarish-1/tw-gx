@@ -4,10 +4,11 @@ import { Carousel } from "antd";
 import { LeftOutlined } from "@ant-design/icons";
 import "./styles.css";
 import MoreProducts from "./Moreproductscarousel";
+import CTA from "./CTA";
 
 function App() {
   return (
-    <div className="bg-white App">
+    <div className="bg-white App mb-24">
       <div className="max-w-2xl mx-auto py-5 px-4 sm:py-5u sm:px-6 lg:max-w-3xl lg:px-8">
         <div className="flex justify-between items-center mb-5">
           <span className="text-xl">
@@ -88,7 +89,7 @@ function App() {
           </div>
         </div>
 
-        <div class="">
+        <div className="">
           <div className="pt-2 justify-between items-center">
             <span className="text-sm lg:text-1xl">
               Use code to get 25% off site wide
@@ -104,21 +105,10 @@ function App() {
           <div className="border-b pt-5"></div>
 
           <h1 className="text-1xl text-gray-500 py-2">MORE PRODUCTS</h1>
-
-          <div className="flex fixed1 bg-white shadow-top pt-3 max-w-2xl mx-auto px-4  lg:max-w-3xl lg:px-8">
-            <button
-              type="button"
-              className="mx-2 w-1/2 text-lg items-center justify-center h-12 rounded-lg border-sec outline-none focus:outline-none"
-            >
-              Save for later
-            </button>
-            <button className="mx-2 w-1/2 text-lg h-12 rounded-lg blue-navy text-white outline-none focus:outline-none">
-              Buy Now
-            </button>
-          </div>
         </div>
+        <MoreProducts />
+        <CTA />
       </div>
-      <MoreProducts />
     </div>
   );
 }
