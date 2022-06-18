@@ -89,13 +89,13 @@ function App() {
           </div>
         </div>
 
-        <div className="">
+        <div className="items-center">
           <div className="pt-2 justify-between items-center">
             <span className="text-sm lg:text-1xl">
               Use code to get 25% off site wide
             </span>
 
-            <div className="text-sm">
+            <div className="text-sm my-2">
               <button className="border shadow-md border-dashed border-5 p-3">
                 GLIMPSE-KPI101
               </button>
