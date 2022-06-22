@@ -1,19 +1,13 @@
 import React from "react";
 import "./styles.css";
-import { ScrollingCarousel } from "@trendyol-js/react-carousel";
-import Discounts from "./moreproductscard";
+import Carousel from "./carousel";
 
 function MoreProducts() {
   return (
     <>
       <div className="">
         <div className="mx-auto">
-          <ScrollingCarousel>
-            <Discounts />
-            <Discounts />
-            <Discounts />
-            <Discounts />
-          </ScrollingCarousel>
+          <Carousel />
         </div>
       </div>
     </>

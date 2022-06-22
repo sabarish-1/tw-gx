@@ -9,13 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@material-tailwind/react": "1.0.4",
-    "@trendyol-js/react-carousel": "3.0.0",
     "antd": "^4.19.5",
-    "pure-react-carousel": "1.28.1",
+    "owl.carousel": "2.3.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-multi-carousel": "2.8.1",
     "react-owl-carousel": "2.3.3",
     "swiper": "8.2.4"
   },
