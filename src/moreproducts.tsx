@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
-import Carousel from "./carousel";
+import Discounts from "./moreproductscard";
 
 function MoreProducts() {
   return (
     <>
       <div className="">
         <div className="mx-auto">
-          <Carousel />
+          <Discounts />
         </div>
       </div>
     </>

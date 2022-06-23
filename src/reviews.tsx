@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-import { ScrollingCarousel } from "@trendyol-js/react-carousel";
 import Item from "./reviewcard";
 
 function Reviews() {
@@ -8,12 +7,7 @@ function Reviews() {
     <>
       <div className="">
         <div className="mx-auto">
-          <ScrollingCarousel>
-            <Item />
-            <Item />
-            <Item />
-            <Item />
-          </ScrollingCarousel>
+          <Item />
         </div>
       </div>
     </>
